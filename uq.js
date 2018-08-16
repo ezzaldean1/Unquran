@@ -15,7 +15,7 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Uno=ited Server",{type: 'PLAYING'})
+    client.user.setActivity(" United Server",{type: 'PLAYING'})
 	
 });
 
