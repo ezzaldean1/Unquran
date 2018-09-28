@@ -15,11 +15,15 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" United Server",{type: 'PLAYING'})
+    client.user.setActivity(" Prestige Shop",{type: 'PLAYING'})
 	
 });
 
+client.on('ready', () => {
 
+    client.channels.find(c => c.id === '495289737238675456').join();
+
+});
 const adminprefix = "q";//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 const devs = ['470500980342128650'];//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
